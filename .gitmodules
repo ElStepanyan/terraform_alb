@@ -1,0 +1,3 @@
+[submodule "ansible_roles"]
+	path = ansible_roles
+	url = https://github.com/ElStepanyan/epam_trainig_ansible_roles.git
