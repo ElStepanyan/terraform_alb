@@ -50,7 +50,7 @@ resource "aws_security_group" "allow_http" {
 
 resource "aws_key_pair" "key" {
   key_name   = "tr_key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNUdgsdAPaN0+n0cSaxy8REXkNBHUw1XaZLWSOKdT4ycv0LN8VqMU78Herbayn/hIHAv87L/Ii+rs0/FX7doykyjz8l4OTcJbP6TNPd1xQyqmdBYwajGHZhdi2YM+tjTCS33SlqoxxGVHiiV+XAOsmDzyVdJ04ZhB+P2G77tAOcjXZ+4GaEtAC2/Ut6Uc5tL9HgLmUa1dJH3zxypjjCT00imZ1V9nDAzbK0bo8DggJ05pYLxX+6mmEn0gx8UxFNJU6wiVKIZAT15tQrqOZZGvGSf8slkRsw1Ja0lalm5WFLEDJhsxMOzadEJa5fSOYWUwv5dqZN6FWX30vktqpKVixzs6rXebBFlt6Un7+kRjjnti70ETX5a1zdKDxhbhqfV6bS0CxsbI1UDZmCZ/Y1E+0IBMmbTQv+S63/3D9jWDFvan2nzsxiYCPKJW7d8/Pgflbqu3yBrhXN/76ssfKdfnoT191GZJ8VifPApTsAqhskgYfO92Y7K4grrXcJVraqJU= elush@homework"
+  public_key = "ssh-rsa -----------------------"
 }
 
 resource "aws_instance" "wp_1" {
