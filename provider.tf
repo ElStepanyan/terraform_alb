@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "----------------" 
-  secret_key = "-------------------------------------------"
 
   skip_requesting_account_id  = true 
   skip_get_ec2_platforms      = true
