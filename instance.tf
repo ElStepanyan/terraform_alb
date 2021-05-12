@@ -48,6 +48,11 @@ resource "aws_security_group" "allow_http" {
   }
 }
 
+variable "SSH_KEY" {
+  type = string
+}
+
+
 resource "aws_key_pair" "key" {
   key_name   = "tr_key"
   public_key = var.SSH_KEY
