@@ -50,7 +50,7 @@ resource "aws_security_group" "allow_http" {
 
 resource "aws_key_pair" "key" {
   key_name   = "tr_key"
-  public_key = "ssh-rsa -----------------------"
+  public_key = var.SSH_KEY
 }
 
 resource "aws_instance" "wp_1" {
